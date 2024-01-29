@@ -26,9 +26,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-neutral-off-black);
-    padding-top: 140px;
-    padding-bottom: 170px;
+    /* background-color: var(--clr-neutral-off-black); */
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .profile-card {
@@ -36,18 +37,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 375px;
+    max-width: 350px;
     width: 100%;
     background-color: var(--clr-neutral-dark-grey);
     /* background-color: blanchedalmond; */
-    /* color: white; */
+    border-radius: 10px;
+    padding: 24px;
 }
 
 .image {
     /* height: 85px; */
     width: 85px;
     border-radius: 50%;
-    margin-top: 40px;
 }
 
 .image .profile-image {
@@ -67,18 +68,39 @@ main {
 
 .text-basic-info .name {
     color: var(--clr-neutral-white);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-semi-bold);
     font-size: 1.5rem;
 }
 
 .text-basic-info .address {
     color: var(--clr-primary);
     font-size: 1rem;
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-regular);
 }
 
 .text-job {
     color: var(--clr-neutral-white);
     font-weight: var(--fw-regular);
     font-size: 1rem;
+}
+
+.social-btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 18px;
+}
+
+.btn {
+    background-color: var(--clr-neutral-grey);
+    padding: 15px 72px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--clr-neutral-white);
+}
+
+.btn:hover {
+    background-color: var(--clr-primary);
 }
