@@ -26,8 +26,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--clr-neutral-off-black); */
-    background-color: whitesmoke;
+    background-color: var(--clr-neutral-off-black);
+    /* background-color: whitesmoke; */
     padding-top: 20px;
     padding-bottom: 20px;
 }
