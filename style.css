@@ -37,7 +37,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 350px;
+    max-width: 350px; /* can be replaced with flex-basis instead*/
     width: 100%;
     background-color: var(--clr-neutral-dark-grey);
     /* background-color: blanchedalmond; */
